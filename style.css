@@ -1,0 +1,115 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 200px;
+    height: 200px;
+    background-color: #000;
+}
+
+.opacity{
+    /* opacity: 0.1s;*
+    background-color: red;
+    color: #fff;
+}
+.opacity:hover{
+    opacity: .4;
+}
+
+/* content farzandi *
+
+.content > h2{
+    color: blue;
+}
+
+/* content nabirasi *
+
+.content > div > h2{
+    color: blue;
+}
+
+/* .content + p{
+    color: aqua;    faqat bittasini chiqarib beradi
+} *
+
+.content ~p{
+    color: aquamarine;
+}
+
+
+/* transform *
+
+.tr{
+    width: 400pc;
+    height: 400px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.5rem;
+    /* transform: translateX();      */
+    /* transform: translateY(); */
+    /* transform: translate(100px, 200px); */
+    /* transform: rotate(deg); *
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.tr:hover{
+    /* transform: translate(100px); *
+    transition: all .4s ease;
+    transform: rotate(180deg);
+    transform: scale(2);
+} */
+
+
+body{
+    margin: 100px;
+}
+
+/* animation */
+
+.anime{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    animation-name: rotate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    /* animation-direction: alternate; */
+    animation-timing-function: linear;
+}
+
+.other{
+    /* animation-timing-function: ease-in; */
+    /* animation-timing-function: ease-out; */
+}
+
+
+@keyframes rotate{
+    0%{
+        transform: translate(0) rotate(0);
+        background-color: green;
+        
+    }
+    50%{
+        background-color: blueviolet;
+    }
+    100%{
+        transform: translate(500px) ;
+        background-color:red;
+        border-radius:  0px 303px 351px 0px / 19px 150px 150px 4px
+        ;
+    }
+}
+
+
